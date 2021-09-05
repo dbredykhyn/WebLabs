@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head> <title>Дані про іспит</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        <form action="" method="POST">
+            <fieldset>
+            <fieldset>
+                <legend>     Іспит    </legend>
+                    <label>Прізвище ім'я по-батькові <input type="text" name="ПІБ" id="ПІБ"></label>
+                <br><br>
+                <label>Група  <input type="text" name="Група" id="Група" size="5"></label>
+                <br><br>
+                <label>Оцінка <input type="number" name="Оцінка" id="Оцінка" min="0" max="100"></label> 
+                <br><br>
+                <label>Дата проведення іспиту <input type="date" name="Дата" id="Дата"></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend> Дані про подію </legend>
+                <label>Дисципліна 
+                    <select>
+                        <option>Штучний інтелект</option>
+                        <option>Технології комп'ютерного проектування</option>   
+                        <option>Системний аналіз</option>   
+                        <option>Філософія</option>   
+                        <option>Високопродуктивні обчислення</option>   
+                        <option>Непроцедурне програмування</option>   
+                        <option>Проектування та розробка веб-застосунь</option>                       
+                    </select>
+                </label>
+                <br>
+                <label>Залік <input type="radio" name="podiya" id="zalik"></label> 
+                <label>Іспит <input type="radio" name="podiya" id="ispyt"></label>
+                <br>
+                <label>Прізвище викладача <input type="text" name="PIB_vyk" id="vykl"></label>
+            </fieldset>
+            <br>
+            <button type="submit"> Відправити </button>
+        </fieldset>
+        </form>
+    </body>
+</html>
