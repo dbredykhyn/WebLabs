@@ -1,0 +1,27 @@
+p {
+    color: blue;
+}
+
+dl {
+    color: green;
+}
+
+ol {
+    color:green;
+}
+
+ul {
+    color:green;
+}
+
+body {
+    background-color: #F0E68C;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}

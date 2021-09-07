@@ -1,0 +1,8 @@
+body {
+    background-image: url("../images/3.png");
+    color:blue;
+}
+
+.p_text_center {
+    float: center;
+}

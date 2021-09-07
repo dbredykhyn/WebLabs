@@ -1,0 +1,40 @@
+body {
+    background-color: #F0E68C;
+    color: blue;
+}
+
+a {
+    color: rgb(27, 27, 163);
+}
+
+.p_yellow_italic_underline {
+    color: yellow;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.p_bold {
+    font-weight: bold;
+}
+
+.p_blue {
+    color: rgb(49, 150, 197);
+}
+
+.img_left {
+    float: left;
+    width: 45%;
+}
+
+.img_right {
+    float: right;
+    width: 45%;
+}
+
+.text_left {
+    float: left;
+}
+
+.text_center {
+    float: center;
+}
